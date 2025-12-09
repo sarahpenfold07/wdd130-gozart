@@ -58,7 +58,6 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     justify-items: center;
-
 }
 
 nav a{
@@ -71,6 +70,11 @@ nav a{
     padding: 0 40px;
 }
 
+nav a:hover {
+    color: #0a3d62;
+    transform: scale(1.2);
+}
+
 .idk {
     font-size: 60px;
     font-family: 'Oswald', sans-serif;
@@ -81,7 +85,6 @@ nav a{
     font-size: 20px;
     max-width: fit-content;
     justify-content: center;
-
 }
 
 .top-story p:first-child {
@@ -136,7 +139,7 @@ nav a{
     text-decoration: none;
 }
 
-.footer {
+footer {
     padding: 10px 20px;
     margin: 5px 5px 10px 5px;
     background: #d00000;
@@ -148,15 +151,13 @@ nav a{
     font-size: 15px;
 }
 
-.footer a {
+footer a {
     text-decoration: none;
     color: #fff;
     gap: 20px;
 }
 
-.footer a:first-child,
-.footer a:last-child {
+footer a:first-child,
+footer a:last-child {
     padding: 5px 12px;
-    
-
 }
